@@ -1,16 +1,10 @@
 {
   "hosting": {
-    "public": "dist/platzi-store",
+    "public": "dist/platzi-store/",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
   }
 }
